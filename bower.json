@@ -1,0 +1,22 @@
+{
+  "name": "jquery-directional-hover",
+  "version": "0.1.0",
+  "authors": [
+    "Alex Craig http://acraig.ca/"
+  ],
+  "description": "A jQuery plugin that slides overlays over elements based on mouse direction",
+  "keywords": [
+    "jquery",
+    "overlay",
+    "hover",
+    "mouse_direction",
+    "hover_direction"
+  ],
+  "license": "MIT",
+  "main": [
+  	"./src/jquery.directional-hover.js"
+  ],
+  "dependencies": {
+    "jquery": "~2.1.3"
+  }
+}
