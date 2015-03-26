@@ -9,12 +9,14 @@
     "jquery",
     "overlay",
     "hover",
+    "directional",
     "mouse_direction",
     "hover_direction"
   ],
   "license": "MIT",
   "main": [
-  	"./src/jquery.directional-hover.js"
+  	"./src/jquery.directional-hover.js",
+    "./src/jquery.directional-hover.css"
   ],
   "dependencies": {
     "jquery": "~2.1.3"

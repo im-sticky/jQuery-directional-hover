@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>jQuery Directional Hover</title>
+		<script src="bower_components/jquery/dist/jquery.min.js"></script>
+		<script src="dist/jquery.directional-hover.min.js"></script>
+		<link rel="stylesheet" href="dist/jquery.directional-hover.min.css">
+		<style>
+			.dh-container {
+				margin: 15px;
+				width: 300px;
+				height: 300px;
+				background: black;
+				float: left;
+			}
+			.dh-overlay {
+				background: green;
+				width: 100%;
+				height: 100%;
+			}
+		</style>
+	</head>
+
+	<body>
+		<div class="dh-container">
+			<div class="dh-overlay"></div>
+		</div>
+
+		<div class="dh-container">
+			<div class="dh-overlay"></div>
+		</div>
+
+		<div class="dh-container">
+			<div class="dh-overlay"></div>
+		</div>
+
+		<script>
+			$(window).load(function() {
+				$('.dh-container').directionalHover();
+			});
+		</script>
+	</body>
+</html>
