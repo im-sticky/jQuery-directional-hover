@@ -18,6 +18,9 @@
     "type": "git",
     "url": "https://github.com/andeic/jQuery-directional-hover"
   },
+  "dependencies": {
+    "jquery": "2.1.3"
+  },
   "devDependencies": {
     "grunt": "^0.4.5",
     "grunt-contrib-cssmin": "^0.12.2",
