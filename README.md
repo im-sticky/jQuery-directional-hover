@@ -35,6 +35,7 @@ You can either modify the `$.fn.directionalHover.defaults` object or pass a new 
 The class of the overlay in the container element.
 
 **Type:** `String`
+
 **Default:** `dh-overlay`
 
 ### easing
@@ -42,6 +43,7 @@ The class of the overlay in the container element.
 The jQuery easing function the overlay will use.
 
 **Type:** `String`
+
 **Default:** `swing`
 
 ### speed
@@ -49,6 +51,7 @@ The jQuery easing function the overlay will use.
 The speed at which the overlay will slide in and out at.
 
 **Type:** `Number`
+
 **Default:** `400`
 
 ## API
