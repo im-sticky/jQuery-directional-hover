@@ -48,7 +48,7 @@ The jQuery easing function the overlay will use.
 
 ### speed
 
-The speed at which the overlay will slide in and out at.
+The speed in milliseconds at which the overlay will slide in and out at.
 
 **Type:** `Number`
 
