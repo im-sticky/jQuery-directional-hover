@@ -28,4 +28,32 @@ That's it! There are additional options you can use for the plugin.
 
 ## Options
 
+You can either modify the `$.fn.directionalHover.defaults` object or pass a new object into the `.directionalHover()` function.
+
+### overlay
+
+The class of the overlay in the container element.
+
+**Type:** `String`
+
+**Default:** `dh-overlay`
+
+### easing
+
+The jQuery easing function the overlay will use.
+
+**Type:** `String`
+
+**Default:** `swing`
+
+### speed
+
+The speed at which the overlay will slide in and out at.
+
+**Type:** `Number`
+
+**Default:** `400`
+
+## API
+
 Coming soon...
