@@ -12,7 +12,7 @@ This plugin is available via [npm](https://www.npmjs.com/) (`npm install jquery-
 
 Create a container element with an overlay element inside:
 
-```
+```html
 <div class="dh-container">
 	<div class="dh-overlay"></div>
 </div>
@@ -20,7 +20,7 @@ Create a container element with an overlay element inside:
 
 Call the directional hover plugin on your container element:
 
-```
+```js
 $('.dh-container').directionalHover();
 ```
 
