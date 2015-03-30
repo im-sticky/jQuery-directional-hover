@@ -32,11 +32,11 @@ You can either modify the `$.fn.directionalHover.defaults` object or pass a new 
 
 ### overlay
 
-The class of the overlay in the container element.
+The jQuery selector of the overlay in the container element.
 
 **Type:** `String`
 
-**Default:** `dh-overlay`
+**Default:** `.dh-overlay`
 
 ### easing
 
