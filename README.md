@@ -2,7 +2,7 @@
 
 A jQuery plugin that slides overlays over elements based on mouse direction
 
-Currently version 1.0.0
+Currently version 1.0.1
 
 ## Installation
 
